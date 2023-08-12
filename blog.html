@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Blog para Lu</title>
+  <style>
+    nav {
+    background-color: #20C5F1;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+
+  nav ul li a:hover {
+    color: #f2f2f2;
+  }
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #20C5F1;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    h1 {
+      margin: 0;
+    }
+    h2{
+        text-align: center;
+        color: #2B21A9;
+    }
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    p {
+      line-height: 1.5;
+    }
+    
+    footer {
+      background-color: #20C5F1;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    .image-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-gap: 20px;
+    }
+    
+    .image-gallery img {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+      margin-bottom: 2rem;
+    }
+    @media screen and (max-width: 600px) {
+  header {
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .container {
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+  
+  footer {
+    padding: 10px;
+  }
+  
+  .image-gallery {
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mi Blog para Lu</h1>
+  </header>
+  <nav>
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="blog.html">Blog</a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <p>Para mi musa, mi primavera, y la persona que amo.</p>
+  </div>
+  
+  <div class="container">
+    <h2>Escritos</h2>
+    <!-- Aquí puedes agregar tus entradas del blog, como divs con poemas, textos o imágenes -->
+    <div class="blog-entry" style="text-align: center;">
+      <h3>Te amo</h3>
+      <p>
+        Al tulipán que floreció ante mí, <br>
+         pondría oro en su delicado tallo.<br>
+         Maravilloso e inigualable es,<br>
+         su fragancia deseo por toda la vida.
+        </p>
+    </div>
+  </div>  
+  <div class="container">  
+    <div class="blog-entry">
+      <h2>Para decirte lo que pienso</h2>
+      <p>Lu, en este blog añadiré más cosas semanalmente, elige un día, y me encargaré de subir algo para ti. Te Amo.</p>
+    </div>
+</div>
+<div class="container">
+    <h2>Fotos de la primavera más hermosa</h2>
+    <p>Que mujer tan hermosa, te veo y me vuelvo loco</p>
+    <div class="blog-entry image-gallery" >
+      
+      <img src="Lu1.jpeg" alt="Imagen especial">
+      
+      <img src="Lu.jpeg" alt="Imagen especial">
+      
+      <img src="Lu2.jpeg" alt="Imagen especial">
+      
+      <img src="Lu3.jpeg" alt="Imagen especial">
+      
+    </div>
+</div>
+    <!-- Puedes seguir añadiendo más entradas aquí -->
+  </div>
+
+  <footer>
+    De Samuel, para Luisa, con amor.
+  </footer>
+</body>
+</html>
