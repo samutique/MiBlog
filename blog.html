@@ -3,134 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Prata&family=Roboto&display=swap" rel="stylesheet">
   <title>Mi Blog para Lu</title>
-  <style>
-    nav {
-    background-color: #20C5F1;
-    color: #fff;
-    padding: 10px 0;
-    text-align: center;
-  }
+  <link rel="stylesheet" type="text/css" href="styles.css">
 
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  nav ul li {
-    display: inline-block;
-    margin-right: 20px;
-  }
-
-  nav ul li:last-child {
-    margin-right: 0;
-  }
-
-  nav ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    transition: color 0.3s;
-  }
-
-  nav ul li a:hover {
-    color: #f2f2f2;
-  }
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f2f2f2;
-      margin: 0;
-      padding: 0;
-    }
-    
-    header {
-      background-color: #20C5F1;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-    
-    h1 {
-      margin: 0;
-    }
-    h2{
-        text-align: center;
-        color: #2B21A9;
-    }
-    .container {
-      max-width: 800px;
-      margin: 20px auto;
-      padding: 20px;
-      background-color: #fff;
-      border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    }
-    
-    p {
-      line-height: 1.5;
-    }
-    
-    footer {
-      background-color: #20C5F1;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-    .image-gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      grid-gap: 20px;
-    }
-    
-    .image-gallery img {
-      width: 100%;
-      height: auto;
-      border-radius: 5px;
-      margin-bottom: 2rem;
-    }
-    @media screen and (max-width: 600px) {
-  header {
-    padding: 10px;
-  }
   
-  h1 {
-    font-size: 24px;
-    text-align: center;
-  }
-  
-  .container {
-    margin: 10px;
-    padding: 10px;
-  }
-  
-  p {
-    font-size: 14px;
-  }
-  
-  footer {
-    padding: 10px;
-  }
-  
-  .image-gallery {
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
-  }
-}
-  </style>
 </head>
 <body>
   <header>
     <h1>Mi Blog para Lu</h1>
+    <nav>
+      <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="blog.html">Blog</a></li>
+      </ul>
+    </nav>
   </header>
-  <nav>
-    <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="blog.html">Blog</a></li>
-    </ul>
-  </nav>
+  
   <div class="container">
     <p>Para mi musa, mi primavera, y la persona que amo.</p>
+    <p style="font-weight: bold;">Jueves 17 de agosto</p>
   </div>
   
   <div class="container">
@@ -144,17 +38,41 @@
          Maravilloso e inigualable es,<br>
          su fragancia deseo por toda la vida.
         </p>
+        <h3>Jardines de Recuerdos</h3>
+        <p>
+
+          Un día planté un recuerdo de ti,<br>
+          tu rostro formando constelaciones frente a mi.<br>
+          Permíteme plantar una flor por cada lágrima,<br>
+          y un día este jardín será tuyo.<br><br>
+          
+          Haré los preparativos y construiré una casa,<br>
+           donde los cuadros atesoren nuestro ser.<br>
+           Siéntate entre las margaritas,<br>
+           compartamos todas esas mañanas.<br><br>
+          
+          Y si descubres una flor nueva cada día,<br>
+           es porque la planté con el recuerdo de tu sonrisa.<br>
+          Si tenemos flores de todos los colores, <br>
+          préstame tus labios para conocer nuevas tonalidades.<br><br>
+          
+          Porque aquí, en este jardín rebosante de esperanza,<br>
+          plantaré una flor por cada parte que amo de ti.<br>
+          Y así, al verte en el jardín,<br>
+          el amor perdurará en tu eterna fragancia.
+          </p>
     </div>
   </div>  
   <div class="container">  
     <div class="blog-entry">
       <h2>Para decirte lo que pienso</h2>
-      <p>Lu, en este blog añadiré más cosas semanalmente, elige un día, y me encargaré de subir algo para ti. Te Amo.</p>
+      <p>Hola Lu, te cuento que la sección de fotos es para mí una distracción, probablemente es mi parte favorita y entonces me quedo viendo lo hermosa que eres. Poco a poco voy mejorando el código de esta página. Te Amo.</p>
     </div>
 </div>
 <div class="container">
     <h2>Fotos de la primavera más hermosa</h2>
     <p>Que mujer tan hermosa, te veo y me vuelvo loco</p>
+    <p>¿Cómo hago para no querer verte, si eres lo más hermoso de esta vida? He pensado que si las rosas rojas son icónicas, ahora deberían pedirte permiso, porque ese es tu color. ¡Qué mujer!</p>
     <div class="blog-entry image-gallery" >
       
       <img src="Lu1.jpeg" alt="Imagen especial">
@@ -164,10 +82,21 @@
       <img src="Lu2.jpeg" alt="Imagen especial">
       
       <img src="Lu3.jpeg" alt="Imagen especial">
+
+      <img src="Lu4.jpeg" alt="Imagen especial">
       
     </div>
 </div>
     <!-- Puedes seguir añadiendo más entradas aquí -->
+    <div class="container">
+      <h2>Dime lo que piensas</h2>
+      <p>¡Déjame saber tus pensamientos!</p>
+      
+      <!-- Aquí incrusta el código de Google Forms en el siguiente div -->
+      <div class="google-form">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfBrOQiTYAcMm05jvWt-sQlUTN9YjXWwGosAoKX59PTBb0kPQ/viewform?embedded=true" width="640" height="426" frameborder="0" marginheight="0" marginwidth="0">Cargando…</iframe>
+      </div>
+    </div>
   </div>
 
   <footer>
