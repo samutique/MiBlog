@@ -55,6 +55,9 @@ body {
         text-align: center;
         color: #0AA914;
     }
+    iframe{
+      margin-left: 10%;
+    }
     .container {
 
       max-width: 800px;
@@ -126,5 +129,8 @@ body {
   .google-form {
     margin-top: 10px;
     padding: 5px;
+  }
+  .form{
+    width: 80%;
   }
 }
